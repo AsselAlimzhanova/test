@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+button{
+    padding: 10px;
+    margin-top: 50px;
+}
+
+body{
+    color: #151618;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+    font-family: "Open Sans", sans-serif;
+    width: 1000px;
+    padding: 100px;
+}
+
+
+label{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 50px;
+    font-style: italic;
+    gap: 0 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.work_places{
+    display: inline-block;
+
+}

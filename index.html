@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVP системы для выдачи годовых займов потенциальным клиентам</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset class = "fieldset1">
+        <legend>Данные необходимые для заявки на кредит</legend>
+        <label>Имя <input type="text" required></label>
+        <label>Дата рождения <input type="date" name="Date" placeholder="Дата рождения" id="Date" onblur=""/></label>
+        <div class="res"></div>
+        <label>E-mail <input type="email" placeholder="name@email.com"></label>
+        <label>Номер телефона <input type="tel"  placeholder = "+7 700 700 00 00"></label>
+        <label for="">Место работы: </label>
+            <select id="work_places" name="work_places">
+              <option value="">Продажи</option>
+              <option value="">Услуги</option>
+              <option value="">Гос.работник</option>
+              <option value="">Медицина</option>
+              <option value="">Строительство</option>
+              <option value="">Безработный</option>
+            </select>
+        <label>Месячная заработная плата(тенге) <input type="number" required></label>
+        <label>Наличие других задолженностей(если есть - указывается  сумма в месяц) <input type="number" required></label>
+        <button onclick="document.location=#">Получить ответ</button>
+    </fieldset>
+    <script src="main.js"></script>
+</body>
+</html>
